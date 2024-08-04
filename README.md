@@ -2,11 +2,13 @@
 **Power BI Dashboard using MySQL Database**
 **Objectibe of the Project: **
 The project aims to develop a real-time credit card dashboard that provides stakeholders with actionable insights into key performance metrics and trends. It will display metrics like total revenue, income, interest earned, and customer count, segmented by demographics and usage patterns. Features include real-time data integration, detailed visualizations, predictive analytics, and automated performance alerts.
+
 **Steps:**
 **Import data to SQL database**
 1.Prepare csv file
 2.Create tables in SQL
 3.import csv file into SQL
+
 **Used DAX Queries:**
 1) Week Num 2 = WEEKNUM( 'ccdb cc_details'[Week_Start_Date])
 2) Previous_week_Reveneue = CALCULATE(
@@ -20,6 +22,8 @@ FILTER(
  ALL('ccdb cc_details'),
  'ccdb cc_details'[Week Num 2] = MAX('ccdb cc_details'[Week Num 2])))
 4) wow_revenue = DIVIDE(([Current_week_Reveneue]-[Previous_week_Reveneue]),[Previous_week_Reveneue])
+
+   
 **Insights of this project:**
 **Week 53 (31st Dec)**
 W**eek Over Week Revenue Change:**
