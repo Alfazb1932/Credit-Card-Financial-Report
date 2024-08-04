@@ -1,4 +1,4 @@
-# Credit-Card-Financial-Report
+# Power BI Dashboard Project | Credit-Card-Financial-Report
 **Power BI Dashboard using MySQL Database**
 **Objectibe of the Project: **
 The project aims to develop a real-time credit card dashboard that provides stakeholders with actionable insights into key performance metrics and trends. It will display metrics like total revenue, income, interest earned, and customer count, segmented by demographics and usage patterns. Features include real-time data integration, detailed visualizations, predictive analytics, and automated performance alerts.
